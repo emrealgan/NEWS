@@ -27,7 +27,7 @@ function createNews(data)
 
         let newsButton = document.createElement("a");
         newsButton.classList.add("news-button");
-        newsButton.target = "blank";
+        newsButton.target = "_blank";
 
         newsList.appendChild(newsItem);
         newsItem.appendChild(newsBody)
