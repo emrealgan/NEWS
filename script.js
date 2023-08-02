@@ -1,4 +1,3 @@
-// api key = e68c7282fb76449fbd24dcc2e5e44551
 const newsList = document.querySelector(".news-list");
 
 function getData(url)
@@ -9,7 +8,7 @@ function getData(url)
     .catch( err => console.log(err) )
 }
 
-getData("https://newsapi.org/v2/top-headlines?country=tr&apiKey=e68c7282fb76449fbd24dcc2e5e44551");
+getData("https://newsapi.org/v2/top-headlines?country=tr&apiKey=YOURAPİKEY");
 
 function createNews(data)
 {   
